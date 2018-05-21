@@ -1,0 +1,371 @@
+/*************************************************************
+ Empire Elements Web design services
+ www.empire-elements.co.uk
+ *************************************************************/
+
+body {
+	background-color: #FFFFFF;
+	background-image: url(images/body-bg.jpg);
+	background-repeat: repeat-x;
+	top: 0px;
+	margin: 0px;
+}
+
+/********************** HOLDERS *****************************/
+#MainHolder {
+}
+#TOP {
+	padding-left: 150px;
+}
+#TOP-Message {
+	color: #84a3ae;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 150px;
+	clear: both;
+}
+#TOP img{
+	float: left;
+}
+/********************* MENU ***********************************************/
+#TOP-Menu {
+	background-image: url(images/menu-bg-1.jpg);
+	background-repeat: repeat-x;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 150px;
+	height: 27px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#TOP-Menu a{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#TOP-Menu a:hover{
+	color: #2F7E9C;
+	text-decoration: underline;
+}
+#TOP-Menu a:visited{}
+
+#TOP-Menu p{
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+/********************* SUB-MENU ***********************************************/
+/* change a and a:hover if you add link to the submenu */
+
+#TOP-SubMenu {
+	background-image: url(images/menu-bg-2.jpg);
+	height: 31px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #666666;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 150px;
+}
+#TOP-SubMenu a{}
+#TOP-SubMenu a:hover{}
+#TOP-SubMenu a:visited{}
+#TOP-SubMenu p{
+	margin: 0px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.BottomIMG {
+	clear: none;
+	margin: 0px;
+	padding: 0px;
+}
+/********************* CONTENT NOW ***********************************************/
+#Content-Holder {
+	overflow: auto;
+}
+
+#Content-Left {
+	float: left;
+	background-color: #ffb124;
+	background-image: url(images/menu-left-BG-top.gif);
+	background-repeat: no-repeat;
+	width: 143px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	padding: 0px;
+}
+#Content-Left h3{
+	color: #FFFFFF;
+	padding-left: 10px;
+	margin: 0px;
+	padding-top: 5px;
+}
+#Content-Left p{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+#Content-Left a{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#Content-Left a:hover{
+	color: #B77700;
+	text-decoration: none;
+}
+
+#Content-Left a.submenu{
+	display: block;
+	padding-top: 1px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	background-color: #FDA500;
+	color: #FFFFFF;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFCB6A;
+	border-bottom-color: #FFCB6A;
+}
+#Content-Left a.submenu:hover{
+	background-color: #FFCB6A;
+}
+
+
+/****************/
+#Content-Right {
+	width: 600px;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+
+}
+#Content-Right p{
+	margin: 0px;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+}
+#Content-Right h4{
+	padding-left: 10px;
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #2c7d9a;
+	font-size: 20px;
+}
+/********************************************************************************************/
+h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFD83B;
+	padding-top: 50px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#Banner {
+	background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	height: 182px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	background-color: #639735;
+	text-align: right;
+}
+#Banner h2{
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #9EBE7F;
+}
+#Banner h3{
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 40px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #9EBE7F;
+	font-weight: normal;
+}
+/********************** FOOTER *********************************************************/
+#Footer {
+	clear: both;
+	background-image: url(images/footer-bg.jpg);
+	background-repeat: repeat-x;
+	width: auto;
+	height: 34px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#Footer p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin: 0px;
+}
+#Footer a{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#Footer a:hover{
+	color: #2E7D9A;
+	text-decoration: none;
+}
+#Footer a:visited{}
+
+/********************** TEXT *********************************************************/
+.MarketMessage1 {
+	padding: 5px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	background-color: #ebebeb;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #e67501;
+	font-weight: bold;
+	text-align: center;
+}
+/********************** Slopes *********************************************************/
+#ThreeSlopes {
+	overflow: auto;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	padding: 10px;
+}
+#ThreeSlopes h4{
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+#ThreeSlopes p{
+	color: #AED8E8;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin: 0px;
+}
+#ThreeSlopes a{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#ThreeSlopes a:hover{
+	color: #FFB124;
+	text-decoration: none;
+}
+#SlopeOne {
+	width: 180px;
+	float: left;
+	background-image: url(images/slope-top.gif);
+	background-color: #2E7D9A;
+	background-repeat: no-repeat;
+}
+#SlopeTwo {
+	float: left;
+	width: 180px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-image: url(images/slope-top.gif);
+	background-color: #2E7D9A;
+	background-repeat: no-repeat;
+}
+#SlopeThree {
+	float: left;
+	width: 180px;
+	background-image: url(images/slope-top.gif);
+	background-color: #2E7D9A;
+	background-repeat: no-repeat;
+}
+/********************** Forms *********************************************************/
+.textinput {
+	background-color: #2E7D9A;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.button {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #2E7D9A;
+	background-color: #EBEBEB;
+	margin-top: 5px;
+}
